@@ -38,6 +38,19 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
+### Code Explanation
+`stores` : I am using Redux Saga to call the APIs and get the data.
+Redux saga is managed in the `stores` folder, where you can see all the constants, actions, reducer, and Saga actions.
+
+`utils`: In the `utils` folder one js file for managing all API  and handling the response. That is called by Saga.
+
+`styles`: I modify and write some custom CSS in the `styles` folder.
+
+`routes`: All routes is managed in `routes` folder.
+
+`components`: All reusable and required components is managed in `components` folder.
+
+`containers`: In this folder all the website pages.
 
 ### `npm run build`
 
