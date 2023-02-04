@@ -1,0 +1,17 @@
+@import "styles/custom";
+@import "bootstrap";
+$themecolor:#fa7040;
+.btn-primary {
+  @include button-variant($themecolor, darken($themecolor, 7.5%), darken(#fff, 2%), lighten($themecolor,5%), lighten($themecolor, 10%), darken(#fff, 0%));
+}
+.theme_border_1{border: 1px solid #fa7040;}
+.page-link.active, .active > .page-link {
+  background-color: #fa7040;
+  border-color: #bb352b;
+}
+.page-link {
+  color: #f44336;
+}
+body{
+  background: #dfe3eb !important;
+}

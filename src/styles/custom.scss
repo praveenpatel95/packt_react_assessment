@@ -1,0 +1,38 @@
+$theme-colors: (
+        "primary": #fa7040,
+        "danger": tomato,
+        "info": #0dcaf0,
+        "success": #53c08d,
+        "secondary": #8cc63f,
+        "grey": #dfe3eb,
+        "grey-dark": #a8adb5,
+        "theme-color": #131a40,
+);
+
+.theme_text_color {
+  color: var(--primary);
+}
+.navbar {
+  .nav-link {
+    color: #fff;
+    &:hover {
+      color: #fa7040;
+    }
+
+    &:focus {
+      color: #fa7040;
+    }
+
+  }
+  .nav-link.active{color: #fa7040 !important;}
+
+  .border-2{
+    border: 2px solid;
+  }
+}
+
+@import "~bootstrap/scss/bootstrap";
+
+
+
+
