@@ -38,7 +38,15 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### Code Explanation
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+## Code Explanation
 `stores` : I am using Redux Saga to call the APIs and get the data.
 Redux saga is managed in the `stores` folder, where you can see all the constants, actions, reducer, and Saga actions.
 
@@ -52,10 +60,4 @@ Redux saga is managed in the `stores` folder, where you can see all the constant
 
 `containers`: In this folder all the website pages.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
